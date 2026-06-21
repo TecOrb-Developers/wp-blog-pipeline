@@ -1,5 +1,7 @@
 # WP Blog Pipeline
 
+![wp-blog-pipeline banner](docs/banner.png)
+
 A [Claude Code](https://claude.ai/code)-native content pipeline that turns rough notes into SEO-optimized WordPress blog posts with a single command.
 
 ## What it does
