@@ -1,0 +1,28 @@
+# ─── Credentials (NEVER commit) ───────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+service-account*.json
+
+# ─── Draft outputs (per-blog working files) ───────────────────────
+drafts/*/images/raw/
+drafts/*/images/pre_images/
+drafts/*/publish-log.json
+drafts/*/prompts.log
+
+# ─── Tool noise ──────────────────────────────────────────────────
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ─── Claude Code local state ─────────────────────────────────────
+.claude/local/
+.claude/settings.local.json
+
+# ─── Generated / one-off files (not useful to other users) ───────
+drafts/indexnow-key/
